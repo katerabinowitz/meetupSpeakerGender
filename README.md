@@ -1,6 +1,6 @@
 #Analyzing Gender of Speakers at DC Tech + Data Meetups
 
-This is a [Tech Lady Hackathon](http://techladyhackathon.org/) project I put together. 
+This is a [Tech Lady Hackathon](http://techladyhackathon.org/) project. 
 
 The goal is to look into the gender breakdown of speakers at DC Tech and Data Meetups. 
 
