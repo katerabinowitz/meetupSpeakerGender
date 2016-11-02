@@ -1,31 +1,11 @@
-group,singleSpeaker,variable,sum_value
-D.C. Cyber Security Professionals,no,female,0
-D.C. Cyber Security Professionals,no,male,19
-D.C. Cyber Security Professionals,no,nonBinary,0
-DC Natural Language Processing,no,female,0
-DC Natural Language Processing,no,male,4
-DC Natural Language Processing,no,nonBinary,0
-Data Innovation DC,no,female,6
-Data Innovation DC,no,male,3
-Data Innovation DC,no,nonBinary,0
-Data Visualization DC,no,female,2
-Data Visualization DC,no,male,6
-Data Visualization DC,no,nonBinary,0
-Data Wranglers DC,no,female,0
-Data Wranglers DC,no,male,2
-Data Wranglers DC,no,nonBinary,0
-"Django District, etc.™",no,female,1
-"Django District, etc.™",no,male,1
-"Django District, etc.™",no,nonBinary,0
-Social Data and Analytics - DC,no,female,1
-Social Data and Analytics - DC,no,male,9
-Social Data and Analytics - DC,no,nonBinary,0
-Statistical Programming DC,no,female,2
-Statistical Programming DC,no,male,7
-Statistical Programming DC,no,nonBinary,0
-Tech Talk DC,no,female,0
-Tech Talk DC,no,male,10
-Tech Talk DC,no,nonBinary,0
-Washington DC Area Apache Spark Interactive,no,female,1
-Washington DC Area Apache Spark Interactive,no,male,10
-Washington DC Area Apache Spark Interactive,no,nonBinary,0
+group,singleSpeaker,sum_male,sum_female,sum_nonBinary
+D.C. Cyber Security Professionals,no,19,0,0
+DC Natural Language Processing,no,4,0,0
+Data Innovation DC,no,3,6,0
+Data Visualization DC,no,6,2,0
+Data Wranglers DC,no,2,0,0
+"Django District, etc.™",no,1,1,0
+Social Data and Analytics - DC,no,9,1,0
+Statistical Programming DC,no,7,2,0
+Tech Talk DC,no,10,0,0
+Washington DC Area Apache Spark Interactive,no,10,1,0
