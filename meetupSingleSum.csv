@@ -1,16 +1,16 @@
-group,sum_male,sum_female,sum_nonBinary
-AngularJS DC,5,0,0
-D.C. Cyber Security Professionals,9,0,0
-DC Natural Language Processing,3,0,0
-DC PHP Developer's Community,6,0,0
-DCJS,5,0,0
-Data Education DC,9,0,0
-Data Innovation DC,1,0,0
-Data Science DC,7,0,0
-Data Visualization DC,5,0,0
-Data Wranglers DC,8,0,0
-"Django District, etc.™",6,0,0
-Statistical Programming DC,5,0,0
-Tech Talk DC,8,0,0
-Washington DC Area Apache Spark Interactive,3,0,0
-node.dc,4,0,0
+g,Male,Female
+AngularJS,5,0
+Apache Spark Interactive,3,0
+Cyber Security,9,0
+DCJS,5,0
+Data Education,9,0
+Data Innovation,1,0
+Data Science,7,0
+Data Visualization,5,0
+Data Wranglers,8,0
+Django District,6,0
+Natural Language Processing,3,0
+PHP Developers,6,0
+Statistical Programming,5,0
+Tech Talk,8,0
+nodedc,4,0

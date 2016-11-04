@@ -1,11 +1,11 @@
-group,sum_male,sum_female,sum_nonBinary
-D.C. Cyber Security Professionals,19,0,0
-DC Natural Language Processing,4,0,0
-Data Innovation DC,3,6,0
-Data Visualization DC,6,2,0
-Data Wranglers DC,2,0,0
-"Django District, etc.™",1,1,0
-Social Data and Analytics - DC,9,1,0
-Statistical Programming DC,7,2,0
-Tech Talk DC,10,0,0
-Washington DC Area Apache Spark Interactive,10,1,0
+g,Male,Female
+Apache Spark Interactive,10,1
+Cyber Security,19,0
+Data Innovation,3,6
+Data Visualization,6,2
+Data Wranglers,2,0
+Django District,1,1
+Natural Language Processing,4,0
+Social Data and Analytics ,9,1
+Statistical Programming,7,2
+Tech Talk,10,0

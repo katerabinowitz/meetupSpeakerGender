@@ -17,5 +17,5 @@ meetupSum=meetupT.groupby(['group','singleSpeaker','variable']).sum().add_prefix
 meetupSingle= meetupSum.loc[(meetupSum.index.get_level_values('singleSpeaker') == 'yes')]
 meetupMulti= meetupSum.loc[(meetupSum.index.get_level_values('singleSpeaker') == 'no')]
 
-meetupSingle.to_csv('meetupSingleSum.csv')
-meetupMulti.to_csv('meetupSingleMulti.csv')
+# meetupSingle.to_csv('meetupSingleSum.csv')
+# meetupMulti.to_csv('meetupSingleMulti.csv')
