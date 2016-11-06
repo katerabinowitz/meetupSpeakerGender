@@ -14,6 +14,11 @@ meetup['g']=meetup['group'].str.replace('Washington DC Area ','').str.replace(' 
 meetup['g']=meetup['g'].str.replace(' etc','').str.replace(' Professionals','').str.replace(' Community','')
 meetup['g']=meetup['g'].replace('[^a-zA-Z\d\s]+','',regex=True)
 
+meetup['g']=np.where(meetup['g']=="Apache Spark Interactive","Apache Spark",
+	np.where(meetup['g']=="Natural Language Processing","NPL",
+		np.where(meetup['g']=="Social Data and Analytics","Social Data Analytics",
+			 np.where(meetup['g']=="nodedc","NodeDC",meetup['g']))))
+
 #identify multi vs. single speaker events and sum gender for each meetup type and group
 meetup['singleSpeaker'] = np.where(meetup['male'] + meetup['female'] == 1, 'yes', 'no')
 
@@ -22,6 +27,8 @@ meetupSum=meetupSum.rename(columns = {'sum_male':'Male','sum_female':'Female'})
 
 meetupSingle= meetupSum.loc[(meetupSum.index.get_level_values('singleSpeaker') == 'yes')]
 meetupSingle.index = meetupSingle.index.droplevel(1)
+meetupSingle.index = np.where(meetupSingle.index =="NodeDC","node.dc",meetupSingle.index)
+meetupSingle.index.name = 'g'
 
 meetupMulti= meetupSum.loc[(meetupSum.index.get_level_values('singleSpeaker') == 'no')]
 meetupMulti.index = meetupMulti.index.droplevel(1)
