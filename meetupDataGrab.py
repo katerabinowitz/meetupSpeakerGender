@@ -9,9 +9,10 @@ meetup=['DC-Javascript','AngularJS-DC','Washington-DC-Area-Spark-Interactive','S
 desc,time,name,group = [],[],[],[]
 dfList=[]
 meetupDF=pd.DataFrame()
+key=[]
 
 for m in meetup:
-	url='https://api.meetup.com/2/events?key=7c4014713845756236b1a568256a50&offset=0&format=json&limited_events=False&group_urlname='+m+'&photo-host=public&time=1451610000000%2C&page=20&fields=&order=time&status=past&desc=false'
+	url='https://api.meetup.com/2/events?key='+key+'&offset=0&format=json&limited_events=False&group_urlname='+m+'&photo-host=public&time=1451610000000%2C&page=20&fields=&order=time&status=past&desc=false'
 
 	response = urllib.urlopen(url)
 	data = json.loads(response.read())
