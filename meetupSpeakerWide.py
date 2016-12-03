@@ -9,7 +9,7 @@ meetup = pd.read_csv('techMeetupsNotated.csv')
 # (i.e., not hacknights, etc.)
 meetup = meetup[meetup['applicable'] == 1]
 meetup = meetup.drop(['applicable', 'desc', 'name',
-                      'time', 'nonBinary'], axis=1)
+                      'time'], axis=1)
 
 # shorten names for viz
 # TODO modify this section for the Austin-specific groups
