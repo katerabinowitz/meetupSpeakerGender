@@ -15,7 +15,7 @@ meetup['g']=meetup['g'].str.replace(' etc','').str.replace(' Professionals','').
 meetup['g']=meetup['g'].replace('[^a-zA-Z\d\s]+','',regex=True)
 
 meetup['g']=np.where(meetup['g']=="Apache Spark Interactive","Apache Spark",
-	np.where(meetup['g']=="Natural Language Processing","NPL",
+	np.where(meetup['g']=="Natural Language Processing","NLP",
 		np.where(meetup['g']=="Social Data and Analytics ","Social Data Analytics",
 			 np.where(meetup['g']=="nodedc","NodeDC",
 			 	np.where(meetup['g']=="Statistical Programming","Stats Programming",meetup['g'])))))
