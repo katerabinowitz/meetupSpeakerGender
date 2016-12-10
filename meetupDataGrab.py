@@ -1,10 +1,10 @@
 import requests
 import pandas as pd
 
-meetups = pd.read_csv('groupList.csv')
+meetups = pd.read_csv('sampleUrlname.csv')
 
 desc, time, name, group = [], [], [], []
-key = 'KEYGOESHERE'
+key = '3a73525f53144842267638654505d74'
 offset = 0
 
 for i, m in meetups.iterrows():
@@ -13,7 +13,7 @@ for i, m in meetups.iterrows():
         url = 'https://api.meetup.com/2/events?key=' + key + '&offset=' + str(offset) + '&format=json&limited_events=False&group_urlname=' + \
             m['group_url'] + '&photo-host=public&time=1451610000000%2C&page=200&fields=&order=time&status=past&desc=false'
         print('Scraping', m['group_url'])
-        response = requests.get(url, timeout=60)
+        response = requests.get(url, timeout=120)
         data = response.json()
         for result in data['results']:
             try:
