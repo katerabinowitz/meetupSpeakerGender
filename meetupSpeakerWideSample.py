@@ -10,7 +10,7 @@ meetup=meetup.drop(['applicable','desc','name','time','nonBinary'],axis=1)
 
 # #shorten names for viz
 meetup['g']=meetup['group']
-meetup['g']=meetup['group'].str.replace('Austin Texas','ATX').str.replace('Austin', 'ATX')
+meetup['g']=meetup['group'].str.replace('Austin Texas','ATX').str.replace('Austin ', '')
 meetup['g']=meetup['g'].str.replace(' etc','').str.replace('(WebDesign&DeveloperMeetup)','').str.replace('Meetup','').str.replace('The Austin','')
 # meetup['g']=meetup['g'].replace('[^a-zA-Z\d\s]+','',regex=True)
 
