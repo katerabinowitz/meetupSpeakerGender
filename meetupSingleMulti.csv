@@ -1,34 +1,12 @@
-group,singleSpeaker,variable,sum_value
-Austin Lean Startup Circle,no,female,0.0
-Austin Lean Startup Circle,no,male,2.0
-Austin Lean Startup Circle,no,nonBinary,0.0
-Austin SEO,no,female,0.0
-Austin SEO,no,male,5.0
-Austin SEO,no,nonBinary,0.0
-Austin Startup Founder 101,no,female,0.0
-Austin Startup Founder 101,no,male,12.0
-Austin Startup Founder 101,no,nonBinary,0.0
-Austin Unity Group,no,female,0.0
-Austin Unity Group,no,male,4.0
-Austin Unity Group,no,nonBinary,0.0
-Bleeding Edge Web,no,female,0.0
-Bleeding Edge Web,no,male,23.0
-Bleeding Edge Web,no,nonBinary,0.0
-Cloud Austin,no,female,0.0
-Cloud Austin,no,male,15.0
-Cloud Austin,no,nonBinary,0.0
-Google Developer Group Austin,no,female,0.0
-Google Developer Group Austin,no,male,2.0
-Google Developer Group Austin,no,nonBinary,0.0
-Open Austin,no,female,9.0
-Open Austin,no,male,17.0
-Open Austin,no,nonBinary,0.0
-OpenStack Austin Texas,no,female,1.0
-OpenStack Austin Texas,no,male,7.0
-OpenStack Austin Texas,no,nonBinary,0.0
-Refresh Austin (Web Design & Developer Meetup),no,female,2.0
-Refresh Austin (Web Design & Developer Meetup),no,male,17.0
-Refresh Austin (Web Design & Developer Meetup),no,nonBinary,0.0
-The Austin WordPress Meetup Group,no,female,13.0
-The Austin WordPress Meetup Group,no,male,17.0
-The Austin WordPress Meetup Group,no,nonBinary,0.0
+g,Male,Female
+Austin Lean Startup Circle,2,0
+Austin SEO,5,0
+Austin Startup Founder 101,12,0
+Austin Unity Group,4,0
+Bleeding Edge Web,23,0
+Cloud Austin,15,0
+Google Developer Group Austin,2,0
+Open Austin,17,9
+OpenStack Austin Texas,7,1
+Refresh Austin (Web Design & Developer Meetup),17,2
+The Austin WordPress Meetup Group,17,13
