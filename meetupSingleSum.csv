@@ -1,16 +1,43 @@
-g,Male,Female
-AngularJS,5,0
-Apache Spark,3,0
-Cyber Security,9,0
-DCJS,5,0
-Data Education,9,0
-Data Innovation,1,0
-Data Science,7,0
-Data Visualization,5,0
-Data Wranglers,8,0
-Django District,6,0
-NPL,3,0
-node.dc,4,0
-PHP Developers,6,0
-Stats Programming,5,0
-Tech Talk,8,0
+group,singleSpeaker,variable,sum_value
+Austin Lean Startup Circle,yes,female,0.0
+Austin Lean Startup Circle,yes,male,1.0
+Austin Lean Startup Circle,yes,nonBinary,0.0
+Austin SEO,yes,female,1.0
+Austin SEO,yes,male,2.0
+Austin SEO,yes,nonBinary,0.0
+Austin Startup Founder 101,yes,female,2.0
+Austin Startup Founder 101,yes,male,1.0
+Austin Startup Founder 101,yes,nonBinary,1.0
+Austin Unity Group,yes,female,0.0
+Austin Unity Group,yes,male,4.0
+Austin Unity Group,yes,nonBinary,0.0
+Bleeding Edge Web,yes,female,0.0
+Bleeding Edge Web,yes,male,3.0
+Bleeding Edge Web,yes,nonBinary,0.0
+Cloud Austin,yes,female,0.0
+Cloud Austin,yes,male,6.0
+Cloud Austin,yes,nonBinary,0.0
+Google Developer Group Austin,yes,female,0.0
+Google Developer Group Austin,yes,male,4.0
+Google Developer Group Austin,yes,nonBinary,0.0
+Open Austin,yes,female,2.0
+Open Austin,yes,male,3.0
+Open Austin,yes,nonBinary,0.0
+OpenStack Austin Texas,yes,female,0.0
+OpenStack Austin Texas,yes,male,5.0
+OpenStack Austin Texas,yes,nonBinary,0.0
+Product Austin,yes,female,0.0
+Product Austin,yes,male,5.0
+Product Austin,yes,nonBinary,0.0
+Refresh Austin (Web Design & Developer Meetup),yes,female,0.0
+Refresh Austin (Web Design & Developer Meetup),yes,male,2.0
+Refresh Austin (Web Design & Developer Meetup),yes,nonBinary,0.0
+The Austin Linux Meetup,yes,female,0.0
+The Austin Linux Meetup,yes,male,2.0
+The Austin Linux Meetup,yes,nonBinary,0.0
+The Austin WordPress Meetup Group,yes,female,6.0
+The Austin WordPress Meetup Group,yes,male,17.0
+The Austin WordPress Meetup Group,yes,nonBinary,0.0
+Web Programming For Beginners,yes,female,0.0
+Web Programming For Beginners,yes,male,9.0
+Web Programming For Beginners,yes,nonBinary,0.0

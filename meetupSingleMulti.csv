@@ -1,11 +1,34 @@
-g,Male,Female
-Apache Spark,10,1
-Cyber Security,19,0
-Data Innovation,3,6
-Data Visualization,6,2
-Data Wranglers,2,0
-Django District,1,1
-NPL,4,0
-Social Data Analytics,9,1
-Stats Programming,7,2
-Tech Talk,10,0
+group,singleSpeaker,variable,sum_value
+Austin Lean Startup Circle,no,female,0.0
+Austin Lean Startup Circle,no,male,2.0
+Austin Lean Startup Circle,no,nonBinary,0.0
+Austin SEO,no,female,0.0
+Austin SEO,no,male,5.0
+Austin SEO,no,nonBinary,0.0
+Austin Startup Founder 101,no,female,0.0
+Austin Startup Founder 101,no,male,12.0
+Austin Startup Founder 101,no,nonBinary,0.0
+Austin Unity Group,no,female,0.0
+Austin Unity Group,no,male,4.0
+Austin Unity Group,no,nonBinary,0.0
+Bleeding Edge Web,no,female,0.0
+Bleeding Edge Web,no,male,23.0
+Bleeding Edge Web,no,nonBinary,0.0
+Cloud Austin,no,female,0.0
+Cloud Austin,no,male,15.0
+Cloud Austin,no,nonBinary,0.0
+Google Developer Group Austin,no,female,0.0
+Google Developer Group Austin,no,male,2.0
+Google Developer Group Austin,no,nonBinary,0.0
+Open Austin,no,female,9.0
+Open Austin,no,male,17.0
+Open Austin,no,nonBinary,0.0
+OpenStack Austin Texas,no,female,1.0
+OpenStack Austin Texas,no,male,7.0
+OpenStack Austin Texas,no,nonBinary,0.0
+Refresh Austin (Web Design & Developer Meetup),no,female,2.0
+Refresh Austin (Web Design & Developer Meetup),no,male,17.0
+Refresh Austin (Web Design & Developer Meetup),no,nonBinary,0.0
+The Austin WordPress Meetup Group,no,female,13.0
+The Austin WordPress Meetup Group,no,male,17.0
+The Austin WordPress Meetup Group,no,nonBinary,0.0
