@@ -4,7 +4,7 @@ import pandas as pd
 meetups = pd.read_csv('sampleUrlname.csv')
 
 desc, time, name, group = [], [], [], []
-key = '3a73525f53144842267638654505d74'
+key = 'KEYGOESHERE'
 offset = 0
 
 for i, m in meetups.iterrows():
