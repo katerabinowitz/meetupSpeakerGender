@@ -1,10 +1,10 @@
 import requests
 import pandas as pd
 
-meetups = pd.read_csv('sampleUrlname.csv')
+meetups = pd.read_csv('groupList.csv')
 
 desc, time, name, group = [], [], [], []
-key = 'KEYGOESHERE'
+key = 'KEYGOESGERE'
 offset = 0
 
 for i, m in meetups.iterrows():
