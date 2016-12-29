@@ -14,6 +14,7 @@ meetup['g']=meetup['group'].str.replace('Austin Texas','ATX').str.replace('Austi
 meetup['g']=meetup['g'].str.replace(' Group','').str.replace('Group Austin','').str.replace(' Circle','').str.replace('Web Design & Developer ','Design & Dev').str.replace('Meetup','').str.replace('The Austin','').str.replace('The ', '').str.replace('Programming', 'Prog')
 # meetup['g']=meetup['g'].replace('[^a-zA-Z\d\s]+','',regex=True)
 
+
 #identify multi vs. single speaker events and sum gender for each meetup type and group
 meetup['singleSpeaker'] = np.where(meetup['male'] + meetup['female'] == 1, 'yes', 'no')
 
