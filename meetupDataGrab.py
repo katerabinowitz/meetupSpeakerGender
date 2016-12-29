@@ -1,30 +1,41 @@
-import urllib
-import json
+import requests
 import pandas as pd
 
-meetup=['Austin-Web-Design','CoFounder-Austin','austinpython','Austin-Lean-Startup-Circle', 'Built-In-Austin', 'atxstartupscene']
+meetups = pd.read_csv('groupList.csv')
 
-desc,time,name,group = [],[],[],[]
-dfList=[]
-meetupDF=pd.DataFrame()
-key='KEYGOESHERE'
+desc, time, name, group = [], [], [], []
+key = 'KEYGOESGERE'
+offset = 0
 
-for m in meetup:
-	url='https://api.meetup.com/2/events?key='+key+'&offset=0&format=json&limited_events=False&group_urlname='+m+'&photo-host=public&time=1451610000000%2C&page=20&fields=&order=time&status=past&desc=false'
+for i, m in meetups.iterrows():
+    done = False
+    while not done:
+        url = 'https://api.meetup.com/2/events?key=' + key + '&offset=' + str(offset) + '&format=json&limited_events=False&group_urlname=' + \
+            m['group_url'] + '&photo-host=public&time=1451610000000%2C&page=200&fields=&order=time&status=past&desc=false'
+        print('Scraping', m['group_url'])
+        response = requests.get(url, timeout=120)
+        data = response.json()
+        for result in data['results']:
+            try:
+                desc.append(result['description'])
+                time.append(result['time'])
+                name.append(result['name'])
+                group.append(result['group']['name'])
+            except:
+                pass
+        print('Found', len(data['results']))
+        if len(data['results']) == 200:
+            offset = offset + 1
+        else:
+            offset = 0
+            done = True
 
-	response = urllib.urlopen(url)
-	data = json.loads(response.read())
-	for i in data['results']:
-		desc.append(i['description'].encode('utf-8'))
-		time.append(i['time'])
-		name.append(i['name'].encode('utf-8'))
-		group.append(i['group']['name'].encode('utf-8'))
-	innerColumns = {'desc':desc,'time': time, 'name': name, 'group': group}
-	df = pd.DataFrame(innerColumns)
-dfList.append(df)
-print dfList
-meetupDF = pd.concat(dfList)
-meetupDF.to_csv('techMeetups.csv')
+columns = {'desc': desc, 'time': time, 'name': name, 'group': group}
+meetupDF = pd.DataFrame(columns)
+meetupDF.to_csv('techMeetups.csv', encoding='utf-8', index=False)
 
-
-	
+# prints a template of the notated csv file
+meetupDF = pd.concat([pd.DataFrame(columns=['applicable', 'male', 'female', 'nonBinary']),
+                      meetupDF], axis=1)
+meetupDF.to_csv('techMeetupsNotated.csv', encoding='utf-8', index=False)
+print('Done!')
