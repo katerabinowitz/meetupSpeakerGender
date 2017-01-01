@@ -4,7 +4,8 @@ import pandas as pd
 meetups = pd.read_csv('groupList.csv')
 
 desc, time, name, group = [], [], [], []
-key = 'KEYGOESGERE'
+#Enter your meetup API key between the quotes below
+key = ''
 offset = 0
 
 for i, m in meetups.iterrows():
