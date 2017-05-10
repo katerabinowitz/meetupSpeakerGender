@@ -1,20 +1,20 @@
-#The Gender Divide of Tech + Data Meetup Speakers
+# The Gender Divide of Tech + Data Meetup Speakers
 
-####Background:
+#### Background:
 Women and non-binary speakers continue to be rare at area tech and data professional events, despite growing prominence in the fields. Their absence on stage perpetuates existing gender imbalances. This project examine the gender gap of speakers at area tech and data meetup events. 
 
 It started in DC but has been generalized for other cities. The code in this folder can replicate the analysis in your own city, with instructions below. Each city's data has it's own folder with notes. 
 
-####Data Source: 
+#### Data Source: 
 [Meetup API](https://www.meetup.com/meetup_api/)
 
-###Findings:
+### Findings:
 http://www.datalensdc.com/meetupSpeakers.html
 
-###Towards a Solution:
+### Towards a Solution:
 http://wespeaktoo.org/
 
-###How you can participate:
+### How you can participate:
 This project originated in DC, and was improved upon when replicated in Austin. You can do the same for your city! Reach out to me if you're interested: datalensdc@gmail.com
 
 The process:
